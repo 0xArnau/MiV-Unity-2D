@@ -8,7 +8,8 @@ public class SpikeHead : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player")) {
             Debug.Log("Player damaged");
-            Destroy(collision.gameObject);
+            //Destroy(collision.gameObject);
+            collision.transform.GetComponent<PlayerRespawn>().PlayerDamaged();
         }
     }
 }

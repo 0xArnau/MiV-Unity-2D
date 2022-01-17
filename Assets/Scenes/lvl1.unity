@@ -638,6 +638,7 @@ GameObject:
   - component: {fileID: 942488085}
   - component: {fileID: 942488084}
   - component: {fileID: 942488086}
+  - component: {fileID: 942488087}
   m_Layer: 0
   m_Name: MaskDude
   m_TagString: Player
@@ -798,6 +799,19 @@ MonoBehaviour:
   fallMultiplier: 0.5
   lowJumpMultiplier: 2
   spriteRenderer: {fileID: 942488082}
+  animator: {fileID: 942488081}
+--- !u!114 &942488087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942488080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5650f247463639d4084953375ec0b40a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   animator: {fileID: 942488081}
 --- !u!1001 &1035524414
 PrefabInstance:
