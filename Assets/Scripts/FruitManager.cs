@@ -16,7 +16,7 @@ public class FruitManager : MonoBehaviour
         if (transform.childCount < 1)
         {
             //Debug.Log("All fruits collected");
-            SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1) % 3);
+            SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1) % 4);
         }
             
     }
